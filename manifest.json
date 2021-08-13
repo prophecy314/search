@@ -3,8 +3,8 @@
   "short_name": "搜索导航",   
   "icons": [                    
     {
-      "src": "https://cdn.geekwire.com/wp-content/uploads/2020/10/0EVE9TeW_400x400.png",
-      "sizes": "400x400",
+      "src": "logo.png",
+      "sizes": "128x128",
       "type": "image/png"
     },
   ],     
