@@ -4,11 +4,10 @@
   "icons": [                    
     {
       "src": "https://cdn.geekwire.com/wp-content/uploads/2020/10/0EVE9TeW_400x400.png",
-      "sizes": "128x128",
+      "sizes": "400x400",
       "type": "image/png"
     },
-  ],
-  "background_color": "#fff",     
+  ],     
   "start_url": "https://prophecy314.github.io/search/",               
   "display": "standalone",        
 }
