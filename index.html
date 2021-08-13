@@ -8,7 +8,6 @@
 		<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://cdn.geekwire.com/wp-content/uploads/2020/10/0EVE9TeW_400x400.png">
 		<title>搜索导航</title>
 		<link rel="icon" type="image/ico" href="https://cdn.geekwire.com/wp-content/uploads/2020/10/0EVE9TeW_400x400.png">
-		<link rel="manifest" href="manifest.json">
 		<meta name="description" content="本网页由YUOO主页改编而来。">
 		<meta name="keywords" content="手机导航,主页">
 		<style>
@@ -239,6 +238,7 @@
 				s.parentNode.insertBefore(hm,s)
 			})();
 		</script>
+		<link rel="manifest" href="manifest.json">
 	</head>
 
 <body>
@@ -256,18 +256,14 @@
 		</div><br>
 
 		<script>
-		// 判断浏览器是否支持 service worker
 			if ('serviceWorker' in navigator) {
-			    // load 事件完成之后才注册 service worker
+
 			    window.addEventListener('load', function () {
-				// 注册 sw.js
 				navigator.serviceWorker.register('/sw.js')
 				    .then(function (registration) {
-					// 注册成功
 					console.log('sw.js 注册成功', registration.scope);
 				    })
 				    .catch(function (err) {
-					// 注册失败:(
 					console.log('sw.js 注册失败 ', err);
 				    });
 			    });
