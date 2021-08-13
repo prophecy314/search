@@ -1,14 +1,14 @@
 {
-  "name": "搜索导航",         // 名字
-  "short_name": "搜索导航",   // 缩略名，空间不够时展示缩略名
-  "icons": [                    // 应用的图标
+  "name": "搜索导航",         
+  "short_name": "搜索导航",   
+  "icons": [                    
     {
       "src": "https://cdn.geekwire.com/wp-content/uploads/2020/10/0EVE9TeW_400x400.png",
       "sizes": "128x128",
       "type": "image/png"
     },
   ],
-  "background_color": "#fff",    // 背景色 
-  "start_url": "https://prophecy314.github.io/search/",               // 启动时加载资源你的路径
-  "display": "standalone",        // 展示模式，fullscreen 是全屏，standalone 是独立应用模式，影响最终 App 展示效果
+  "background_color": "#fff",     
+  "start_url": "https://prophecy314.github.io/search/",               
+  "display": "standalone",        
 }
